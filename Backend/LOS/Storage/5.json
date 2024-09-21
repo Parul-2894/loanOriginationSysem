@@ -1,0 +1,58 @@
+{
+    "workflows": {
+        "screen1": {
+            "Title": "splash Screen",
+            "description": "",
+            "elements": {
+                "field_id": {
+                    "field_name": "enterd by DSA",
+                    "css_style": {
+                        "backgroundColor": "pink",
+                        "fontColor": "red",
+                        "fontFamily": "Arial",
+                        "position": "absoute",
+                        "top": "0px",
+                        "left": "0px"
+                    },
+                    "feild_type": "input",
+                    "conditions": {
+                        "condition": "greater",
+                        "target_value": 20
+                    },
+                    "action": {
+                        "action_type": "on click",
+                        "action_to_take": "call API"
+                    }
+                },
+                "screen_order": 1
+            }
+        },
+        "screen2": {
+            "Title": "splash Screen",
+            "description": "",
+            "elements": {
+                "field_id": {
+                    "field_name": "enterd by DSA",
+                    "css_style": {
+                        "backgroundColor": "pink",
+                        "fontColor": "red",
+                        "fontFamily": "Arial",
+                        "position": "absoute",
+                        "top": "0px",
+                        "left": "0px"
+                    },
+                    "feild_type": "input",
+                    "conditions": {
+                        "condition": "greater",
+                        "target_value": 20
+                    },
+                    "action": {
+                        "action_type": "on click",
+                        "action_to_take": "call API"
+                    }
+                },
+                "screen_order": 1
+            }
+        }
+    }
+}
