@@ -1,0 +1,32 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "Personal Loan",
+        "principal_amount": 5000,
+        "interest_rate": 5.5,
+        "loan_term": 24,
+        "repayment_schedule": "Monthly",
+        "collateral": "None",
+        "loan_type": "Unsecured",
+        "fees_and_charges": 100,
+        "credit_score_requirements": 650,
+        "grace_period": 1,
+        "loan_covenants": null,
+        "workflow_configuration_path": "/path/to/workflow"
+    },
+    {
+        "product_id": 2,
+        "product_name": "Home Loan",
+        "principal_amount": 200000,
+        "interest_rate": 3.5,
+        "loan_term": 360,
+        "repayment_schedule": "Monthly",
+        "collateral": "House",
+        "loan_type": "Secured",
+        "fees_and_charges": 2000,
+        "credit_score_requirements": 700,
+        "grace_period": 3,
+        "loan_covenants": null,
+        "workflow_configuration_path": "/path/to/workflow"
+    }
+]
